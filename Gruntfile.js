@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                 },
                 src: [
                     'src/webconsole.settings.php',
-                    'src/vendor/eazy-jsonrpc/BaseJsonRpcServer.php',
+                    'src/vendor/eazy-jsonrpc/src/BaseJsonRpcServer.php',
                     'src/webconsole.main.php'
                 ],
                 dest : 'release/parts/webconsole.html'
